@@ -1,0 +1,441 @@
+:root{
+    --green:rgb(167,228,59);
+    --blue:rgb(22,68,121);
+    --orange:rgb(255,145,77);
+    --grey:rgb(75,75,75);
+
+}
+
+body{
+    background-color:rgb(240,240, 240);
+    font-family: Times, sans-serif;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    position: absolute;
+    width: 100%;
+    height: 40px;
+    top: 0;
+    left: 0;
+    background: white;
+    display: flex;
+    justify-content: space-between;    
+}
+
+footer{
+    /* position: absolute; */
+    width: 100%;
+    height: 130px;
+    /* color: var(--grey); */
+    /* bottom: 0; */
+    /* left: 0; */
+    background: rgb(255, 255, 255);
+    /* display: flex; */
+    /* justify-content: space-between; */
+    /* margin: 20px 400px; */
+}
+a{
+    text-decoration: none;
+    color: rgb(52, 52, 211);
+}
+
+p{
+    color: rgb(75, 75, 75);
+}
+
+.logotekken, .facebook,.twitter,.linkedin {
+    width: auto;
+    height: 40px;
+    padding: 10px 10px;
+    /* padding-right: 20%; */
+}
+
+.end {
+    padding:0;
+    width: 100%;
+    margin: 10px;
+}
+
+
+.end ul{
+    width: 100%;
+    /* position: fixed; */
+    list-style: none;
+    /* align-items: center; */
+    display: flex;
+    justify-content: center;
+    /* box-sizing: border-box; */
+    /* padding-right:20%; */
+    padding: 10px 200px;
+}
+.navbar {
+    padding:0;
+    width: 100%;
+    margin: 10px;
+}
+
+.navbar ul{
+    width: 100%;
+    list-style: none;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+    padding-right:20%;
+}
+
+ /* voir le burger menu responsive et le hover */
+
+ .banner {
+    width: 100%;
+    height: 150px;
+    background-image: url(./assets/images/annie-spratt-QckxruozjRg-unsplash.webp);
+    background-size: cover;
+    background-position: center;
+}
+
+/* 
+.banner img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+} */
+
+/*  METTRE EN LIGNE  */
+
+.human{
+    flex-wrap: wrap;
+}
+
+.human h1{
+    color: white;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 50px;
+}
+
+.human h2{
+    color:var(--blue);
+    font-size: 1.5em;
+    margin: auto;
+    margin-left: 10%;
+}
+
+.human p{
+    margin: auto;
+    text-align: left;
+    margin-left: 10%;
+}
+
+.sympa{
+    width: 100%;
+    height: 100%;
+
+}
+.sympa h1{
+    color: white;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 50px;
+
+}
+
+.dev, .passion {
+    color:var(--blue);
+}
+.cds,.excellence {
+    color:var(--orange);
+}
+.confiance, .td{
+    color:var(--green);
+}
+
+
+.bloc1, .bloc2 ,.bloc3, .bloc4, .bloc5 {
+    display: flex;
+    padding: 10px 30px;
+    width: 300px;
+    /* height: 200px; */
+    flex-wrap: wrap;
+    /* justify-content: center; */
+    flex-direction: column;
+    align-items: center;
+}
+.bloc6{
+    padding: 10px 30px;
+    width: 300px;
+    /* height: 200px; */
+    flex-wrap: nowrap;
+    /* justify-content: center; */
+    flex-direction: row;
+    align-items: left;
+}
+
+.bloc7{
+    padding: 10px 30px;
+    width: 300px;
+    /* height: 200px; */
+    flex-wrap: nowrap;
+    /* justify-content: center; */
+    flex-direction: row;
+    align-items: left;
+}
+
+.bloc8{
+    padding: 10px 30px;
+    width: 300px;
+    /* height: 200px; */
+    flex-wrap: nowrap;
+    justify-content: center;
+    flex-direction: row;
+    align-items: left;
+}
+
+
+.logoleft, .logomid, .logoright, .logogauche,.logodroite{
+    width: 100%;
+    height: 100px;
+    padding: 15px 0px;
+
+}
+
+/*--------------------------------------------------------------------------------------------*/
+
+.banner2 {
+    width: 100%;
+    height: 100%;
+    background-image: url(./assets/images/hj-barraza-l2Eb_cV6a7A-unsplash.webp);
+    background-size: cover;
+    position: relative;
+    background-position: center;
+
+}
+
+.colonne {
+    display: flex;
+    /* padding: 20px 15%; */
+    text-align: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 30px;
+}
+
+.colonne p{
+    display: flex;
+    text-align: left;
+    padding: 5px;
+    
+}
+.voiroffre{
+    display: flex;
+    justify-content: center;
+}
+.sympa a{
+    background-color: #04AA6D;
+    border: none;
+    color: white;
+    padding: 20px;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 4px 2px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 10px 40%;
+}
+
+/*----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+.banner3 {
+    width: 100%;
+    height: 150px;
+    background-image: url(./assets/images/scott-graham-5fNmWej4tAA-unsplash.webp);
+    background-size: cover;
+    position: relative;
+    background-position: center;
+
+}
+
+.banner3 h1{
+    color: white;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 50px;
+}
+
+.colonne2 {
+    display: flex;
+    /* padding: 20px 15%; */
+    text-align: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 10px;
+}
+
+.diginamicleft{
+    color: var(--blue);
+    font-size: 2em;
+}
+.link{
+    color: var(--orange);
+    font-size: 2em;
+
+}
+
+.diginamicright{
+    color: var(--green);
+    font-size: 2em;
+}
+
+.resume {
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 100px;
+}
+
+.resume p{
+    text-align: center;
+    margin: 0 200px;
+    
+}
+
+.partieformulaire {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    /* z-index: 0; */
+    height: 500px;
+    background-image: url(./assets/images/bruno-Ylr037KFzpc-unsplash.webp);
+    background-size: 50%;
+    background-repeat: no-repeat;
+    flex-direction: row;
+    
+}
+.formulaire{
+    background-color: white;
+    position:relative;
+    display: flex;
+    border-color: black;
+    background-position:center;
+    justify-content: space-between;
+    margin: 8em 0;
+    padding: 0.3em;
+    /* background-size: auto; */
+    align-items: left;
+    flex-direction: column; 
+    /* width: 18em;
+    height: 15em; */
+    border-bottom: solid;
+    border-color: var(--grey);
+   
+}
+/* #pj{
+    display: none;
+    margin-bottom: 3px;
+} */
+
+/* label{
+    border-style: solid;
+    border-color: rgb(118, 118, 118);
+    border-width:thin ;
+    color:var(--grey);
+    padding: 3px 70px;
+} */
+
+.contact h2{
+    color: var(--orange);
+    display: flex;
+    justify-content: center;
+    margin: 10px 10px;
+}
+
+.map p, .numero p, .contactmail p{
+    display: flex;
+    justify-content: center;
+    margin: 5px 0;
+}
+
+.map{
+    display: flex;
+    /* padding: 10px; */
+    width: 200px;
+    /* height: 200px; */
+    flex-wrap: nowrap;
+    justify-content: center;
+    /* flex-direction: column; */
+    align-items: center;
+}
+
+.numero{
+    display: flex;
+    justify-content: center;
+}
+
+.contactmail{
+    display: flex;
+    justify-content: center;
+}
+
+.contact{
+    background-color:var(--grey);
+    background-position: center;
+    margin-top: 7em;
+    height: 17em;
+    /* display: flex; */
+    justify-content: center;
+    /* align-items: left; */
+    /* flex-wrap: wrap; */
+    flex-direction: column;
+    /* padding: 0 20%; */
+}
+
+.logo-c{
+    width: 15%;
+    height: 20px;
+    padding: 0px 15px 0 0;
+    align-items: left;
+}
+
+textarea{
+    resize: none;
+    width:25em;
+    height: 6em;
+}
+.contact p{
+    color: white;
+    text-align: right;
+}
+
+button {
+    border-radius: 5px;
+    border: none;
+    border: round;
+    background-color: var(--grey);
+    color:white;
+    padding: 3px 20px 0 ;
+    /* margin: 0 20px 20px 20px; */
+    align-items: left;
+}
+
+#bouton2{
+    background-color: var(--white);
+}
+
+footer input{
+    border-color:rgba(185, 184, 183, 0.219); 
+}
+::placeholder {
+    color: rgba(185, 184, 183, 0.473)
+}    
+footer p{
+    color: var(--orange);
+}
+
+/*--------------------------------------------------------------------------*/
